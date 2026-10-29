@@ -1,0 +1,16 @@
+{
+  "name": "mcp-llm-gateway-assessment",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "task1": "node task1-mcp-server/server.js",
+    "task2": "node task2-mcp-gateway/gateway.js",
+    "task3": "node task3-llm-streaming/gateway.js",
+    "task4": "node task4-rate-limiter/router.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8",
+    "better-sqlite3": "^11.7.0"
+  }
+}
